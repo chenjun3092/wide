@@ -1,0 +1,19 @@
+{
+    "IP": "${ip}",
+    "Port": "7070",
+    "Context": "",
+    "Server": "{IP}:{Port}",
+    "StaticServer": "",
+    "LogLevel": "debug",
+    "Channel": "ws://{IP}:{Port}",
+    "HTTPSessionMaxAge": 86400,
+    "StaticResourceVersion": "${time}",
+    "MaxProcs": 4,
+    "RuntimeMode": "prod",
+    "WD": "${pwd}",
+    "Locale": "en_US",
+    "Playground": "${home}/playground",
+    "UsersWorkspaces": "${WD}/workspaces",
+    "AllowRegister": true,
+    "Autocomplete": true
+}

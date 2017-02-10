@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{{.i18n.wide}} - {{.i18n.keyboard_shortcuts}}</title>
+
+        <meta name="keywords" content="Wide, Golang, IDE, Team, Cloud, B3log, Keyboard Shortcuts"/>
+        <meta name="description" content="A Web-based IDE for Teams using Golang, do your development anytime, anywhere."/>
+        <meta name="author" content="B3log">
+
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    </head>
+    <body>
+        <h2>{{.i18n.editor}}</h2>
+        <ul>
+            <li>Ctrl-\{{.i18n.colon}}{{.i18n.autocomplete}}</li>
+            <li>Ctrl-B{{.i18n.colon}}{{.i18n.jump_to_decl}}</li>
+            <li>Ctrl-I{{.i18n.colon}}{{.i18n.show_expr_info}}</li>
+            <li>Alt-F7{{.i18n.colon}}{{.i18n.find_usages}}</li>
+            <li>Alt-Shift-F{{.i18n.colon}}{{.i18n.format}}</li>
+            <li>Ctrl-L{{.i18n.colon}}{{.i18n.goto_line}}</li>
+            <li>Ctrl-E{{.i18n.colon}}{{.i18n.delete_line}}</li>
+            <li>Shift-Ctrl-Up{{.i18n.colon}}{{.i18n.copy_lines_up}}</li>
+            <li>Shift-Ctrl-Down{{.i18n.colon}}{{.i18n.copy_lines_down}}</li>
+            <li>Shift-Alt-Up{{.i18n.colon}}{{.i18n.move_lines_up}}</li>
+            <li>Shift-Alt-Down{{.i18n.colon}}{{.i18n.move_lines_down}}</li>
+            <li>Ctrl-S{{.i18n.colon}}{{.i18n.save_editor_file}}</li>
+            <li>Shift-Ctrl-S{{.i18n.colon}}{{.i18n.save_all_editors_files}}</li>
+            <li>Ctrl-Q{{.i18n.colon}}{{.i18n.close_editor}}</li>
+            <li>Shift-Alt-Enter{{.i18n.colon}}{{.i18n.full_screen}}</li>
+            <li>Shift-Tab{{.i18n.colon}}{{.i18n.auto_indent}}</li>
+            <li>Ctrl-]{{.i18n.colon}}{{.i18n.indent}}</li>
+            <li>Ctrl-[{{.i18n.colon}}{{.i18n.unindent}}</li>
+        </ul>
+        <h2>{{.i18n.search}}</h2>
+        <ul>
+            <li>Shift-Alt-O{{.i18n.colon}}{{.i18n.goto_file}}</li>
+            <li>Ctrl-F{{.i18n.colon}}{{.i18n.search}}/{{.i18n.find}}</li>
+            <li>Ctrl-G{{.i18n.colon}}{{.i18n.find_next}}</li>
+            <li>Shift-Ctrl-G{{.i18n.colon}}{{.i18n.find_previous}}</li>
+            <li>Shift-Ctrl-F{{.i18n.colon}}{{.i18n.replace}}</li>
+            <li>Shift-Ctrl-R{{.i18n.colon}}{{.i18n.replace_all}}</li>
+        </ul>
+        <h2>{{.i18n.focus}}</h2>
+        <ul>
+            <li>Ctrl-D{{.i18n.colon}}{{.i18n.switch_tab}}</li>
+            <li>Ctrl-0{{.i18n.colon}}{{.i18n.focus_editor}}</li>
+            <li>Ctrl-1{{.i18n.colon}}{{.i18n.focus_file_tree}}</li>
+            <li>Ctrl-4{{.i18n.colon}}{{.i18n.focus_output}}</li>
+            <li>Ctrl-5{{.i18n.colon}}{{.i18n.focus_search}}</li>
+            <li>Ctrl-6{{.i18n.colon}}{{.i18n.focus_notification}}</li>
+        </ul>
+        <h2>{{.i18n.run}}</h2>
+        <ul>
+            <li>F5{{.i18n.colon}}{{.i18n.build}}</li>
+            <li>F6{{.i18n.colon}}{{.i18n.build_n_run}}</li>
+            <li>Alt-C{{.i18n.colon}}{{.i18n.clearOutput}}</li>
+        </ul>
+        <h2>{{.i18n.file_tree}}</h2>
+        <ul>
+            <li>Up/Down{{.i18n.colon}}{{.i18n.select}}</li>
+            <li>Left/Right{{.i18n.colon}}{{.i18n.collapse}}/{{.i18n.expand}}</li>
+            <li>Ctrl-R{{.i18n.colon}}{{.i18n.rename}}</li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+{
+    "Name": "admin",
+    "Password": "d1bfca21893c908e64fabda01d71294b1ccdcaa7",
+    "Salt": "dnoyeb",
+    "Email": "",
+    "Gravatar": "d41d8cd98f00b204e9800998ecf8427e",
+    "Workspace": "${GOPATH}",
+    "Locale": "zh_CN",
+    "GoFormat": "goimports",
+    "FontFamily": "Helvetica",
+    "FontSize": "16px",
+    "Theme": "default",
+    "Keymap": "wide",
+    "Created": 0,
+    "Updated": 0,
+    "Lived": 0,
+    "Editor": {
+        "FontFamily": "Consolas, 'Courier New', monospace",
+        "FontSize": "16px",
+        "LineHeight": "22px",
+        "Theme": "monokai",
+        "TabSize": "4"
+    }
+}
+
